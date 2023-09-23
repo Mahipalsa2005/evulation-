@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar {
+            width: 80%;
+            margin: auto;
+            background-color: #ffffff;
+            border-bottom: 2px solid rgb(245,245,245);
+            border-left: 2px solid rgb(240,240,240);
+            border-right: 2px solid rgb(240,240,240);
+            border-radius: 2%;
+            height: 60px;
+        }
+
+        #navbar>div {
+            height: 60px;
+            width: 140px;
+            background-image:linear-gradient(to right, rgb(200,78,232),rgb(69,118,229));
+
+            background-position:
+            bottom right,
+            left,
+            right;
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            margin-left: 30px;
+        }
+
+        #logo {
+            box-sizing: border-box;
+            margin-right: 400px;
+            margin-left: 50px;
+            color: #f8f8f8;
+            font-size: 25px;
+            font-weight: 900;
+            padding: 15px;
+
+        }
+        #header{
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 550px 550px;
+            gap: 25px;
+        }
+        .item1{
+            box-sizing: border-box;
+
+            margin-top: 80px;
+            width: 550px;
+            height: 550px;
+            /* background-color: blueviolet; */
+            padding-left: 50px;
+        }
+        .item1 > p:first-child{
+            color: rgb(27, 27, 159);
+        }
+        .item1>div{
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .item2{
+            margin-top: 30px;
+            width: 530px;
+            height: 600px;
+            /* background-color: blueviolet; */
+            display:grid;
+            grid-template-columns:repeat(2,250px)  ;
+            grid-template-rows:  265px 265px;
+            grid-gap: 30px;
+            
+        }
+        .item2>div{
+            padding: 20px;
+            border-radius: 5%;
+            border: 2px solid rgb(240,240,240);
+
+        }
+        .item2>div>img{
+            border-radius: 50%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="logo">
+           StudyLab
+        </div>
+        <a style="color: blue;" href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Course</a>
+        <a href="#">Instructor</a>
+        <a href="#"> Blog</a>
+        <a href="#">Contact</a>
+    </div>
+    <div id="header">
+        <div class="item1">
+            <p>WELCOME TO STUDYLAB</p>
+            <h1>We Are StudyLab An Online Learning Center</h1>
+            <p style= "font-size: 1.2em;">A small river named Duden flows by their place and supplies it
+                with the necessary regelialia. It is a paradisematic country, in 
+                which roasted parts of sentences fly your mouth.
+                <br> 
+                <br> 
+                Far far away , behind the word mountains , far from the countries 
+                Vokalia and Consonantia, there live the blind texts.
+                Separated they live in Bookmarksgrove right at the coast of the Semantics,a 
+                large language ocean.
+            </p>
+            <div>
+                <img src="https://media.istockphoto.com/id/1477526690/photo/us-coins-shiny.webp?b=1&s=170667a&w=0&k=20&c=Ztud6RoTIQWNhh59bVp2oxX4FtJ47aszizWsbhDVpbM=" alt=""
+                height="100px" width="70px">
+                <span> Learn anything from StudyLab, Watch video</span>
+            </div>
+        </div>
+        <div class="item2">
+            <div>
+                <img style="background-color: blue;" src="https://cdn-icons-png.flaticon.com/512/6988/6988664.png?ga=GA1.1.2110037069.1694787855" 
+                height="60px" alt="">
+                <h4>Top Quality Content</h4>
+                <p style="font-size:larger;">A small river named <br>
+                    Duden flows by their <br>
+                    place and supplies
+                </p>
+            </div>
+            <div>
+                <img style="background-color: pink;" src="https://cdn-icons-png.flaticon.com/512/7855/7855621.png?ga=GA1.1.2110037069.1694787855" 
+                height="60px" alt="">
+                <h4>Top Quality Content</h4>
+                <p style="font-size:larger;">A small river named <br>
+                    Duden flows by their <br>
+                    place and supplies
+                </p>
+            </div>
+            <div>
+                <img style="background-color: green;" src="https://cdn-icons-png.flaticon.com/512/2311/2311570.png?ga=GA1.1.2110037069.1694787855" 
+                height="60px" alt="">
+                <h4>Top Quality Content</h4>
+                <p style="font-size:larger;">A small river named <br>
+                    Duden flows by their <br>
+                    place and supplies
+                </p>
+            </div>
+            <div>
+                <img style="background-color: yellow;" src="https://cdn-icons-png.flaticon.com/512/5733/5733207.png?ga=GA1.1.2110037069.1694787855" 
+                height="60px" alt="">
+                <h4>Top Quality Content</h4>
+                <p style="font-size:larger;">A small river named <br>
+                    Duden flows by their <br>
+                    place and supplies
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
