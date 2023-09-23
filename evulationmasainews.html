@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>masai news</title>
+    <style>
+        #main {
+            height: 600px;
+            background-color: rgb(242, 246, 255);
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        #items {
+            margin: auto;
+            width: 82%;
+            height: 80%;
+            display: grid;
+            grid-template-columns: 400px 400px 390px;
+            gap: 35px;
+        }
+
+        #items>div {
+            height: 400px;
+            background-color: rgb(253, 255, 255);
+            padding: 18px;
+            border-radius: 4%;
+        }
+
+        #items>div>div:first-child {
+            height: 200px;
+            width: 360px;
+            border: 1px solid black;
+            border-radius: 1%;
+
+        }
+
+        div+p {
+            color: blue;
+        }
+
+        p+.pra {
+            font-weight: 600;
+            font-size: large;
+            font-family: Poppins, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+
+        }
+
+        .pra+p {
+            line-height: 25px;
+            font-size: 16.5px;
+            font-family: Open Sans, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+        }
+        a {
+            text-decoration: none;
+            color: red;
+            font-weight: 500;
+        }
+
+        .buton {
+            height: 50px;
+            width: 130px;
+            border: 2px solid red;
+            border-radius: 8%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: -20px auto;
+        }
+        #line{
+            text-align: center;
+        }
+        .buton:hover {
+            background-color: rgb(250, 204, 204);
+        }
+        .mahi {
+            display: grid;
+            grid-template-columns: 200px 200px auto;
+            margin: auto;
+            width: 80%;
+            grid-template-columns: repeat(3, 296px);
+            gap: 50px;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1 id="container">Masai in News</h1>
+        <div id="items">
+            <div>
+                <div>
+                    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/money_Control_c3e25f5ceb.png"
+                        alt="">
+                </div>
+                <p>26 Oct 2021</p>
+                <p class="pra">Kunal Shah, Vijay Shekhar Sharma ,
+                    Amrish Rau among 21 angel investors in
+                    Masai School
+                </p>
+                <p>Masai School is aimng to expand to 20 smaller cities by march 2022 and exp... </p>
+            </div>
+            <div>
+                <div>
+                    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/ET_3754cc10ec.png" alt="">
+                </div>
+                <p>21 Dec 2021</p>
+                <p class="pra">Masai School acquires data analytics firm Prepleaf for $1 million
+                </p>
+                <p>With their latest acquisition, Masai moves one step closer to becoming indi...</p>
+            </div>
+            <div>
+                <div>
+                    <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/vccircle_6ef779c958.png" alt="">
+                </div>
+                <p>18 Aug 2020</p>
+                <p class="pra">Unitus Ventures Leads Pre-Series A Funding For Coding-Focussed Masai School
+                </p>
+                <p>Software coding platform Masai School has raised $2.5
+                    million Rs 18.6 cror...
+                </p>
+            </div>
+
+        </div>
+        <div class="buton">
+            <a href="https://www.masaischool.com/media" target="_blank">SEE MORE ></a>
+        </div>
+    </div>
+    <h1 id="line">Our Investors, Who Believe Us</h1>
+    <div class="mahi">
+        <img src="https://www.masaischool.com/images/our-investors/india-q-borderless.svg" alt="">
+        <img src="https://www.masaischool.com/images/our-investors/unitus-borderless.svg" alt="">
+        <img src="https://www.masaischool.com/images/our-investors/omidyar-borderless.svg" alt="">
+    </div>
+</body>
+
+</html>
